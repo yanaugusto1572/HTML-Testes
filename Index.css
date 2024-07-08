@@ -29,23 +29,25 @@
     font-size: 50px;
     border: solid 10px;
     text-align: center;
-    margin-left: 1%;
-    margin-right: 75%;
-    background-color: orange;
+    background-color: rgb(16, 231, 221);
     border-color: #000;
+    margin: 0% 30% 0% 30%;
+    padding: 5% 10% 5% 10%;
 }
 
-/* Tela verde do topo da Página primária */
+
+/* Tela verde do topo de formulário */
 .pai1 {
+    border: solid;
     font-size: 50px;
     text-align: center;
     background-color: #1eff00;
     color: #000;
     font-weight: bold;
-    height: 20vh;
-    padding-top: 30px;
-    width: 100vw;
-    font-size: 15vh;
+    padding: 10px 0px 10px 0px
+    /* height: 20vh; */
+    /* width: 100vw; */
+    /* font-size: 15vh; */;
 }
 
 /* Teste 1 DEVQUEST */
@@ -97,8 +99,19 @@ td {
     background-color: #424250;
 }
 
+/* Formulário */
 .paipai {
     border: solid gray;
-    margin: 0% 30% 0% 30%;
+    margin: 3% 30% 0% 30%;
     padding: 20px;
+}
+
+/* Explicação página 2 */
+.exp {
+    background-color: gray;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border: solid black;
 }
