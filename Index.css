@@ -2,7 +2,8 @@
     /* color: red; */
     margin: 0;
     /* background-color: gray; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    padding: 0;
 }
 
 /* Tela vermelha do topo das Páginas */
@@ -31,8 +32,9 @@
     text-align: center;
     background-color: rgb(16, 231, 221);
     border-color: #000;
-    margin: 0% 30% 0% 30%;
+    /* margin: 0% 10% 0% 10%; */
     padding: 5% 10% 5% 10%;
+    margin: 0vw 25vw 0vw 25vw;
 }
 
 
@@ -115,3 +117,36 @@ td {
     padding: 10px 0px 10px 0px;
     border: solid black;
 }
+
+/* links */
+a {
+    cursor: cell;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: red;
+    background-color: orange;
+}
+
+a:hover {
+    color: red;
+    background-color: rgb(7, 255, 7);
+}
+
+/* Listas
+ul {
+    background-color: gray;
+    list-style-type: circle;
+    list-style-image:url('./Assets/kylo-ren-starwars-pl.jpg') ;
+}
+
+ul li {
+    padding-left: 40px;
+    font-size: 50px;
+    border: 1px solid black;
+} */ 
+
