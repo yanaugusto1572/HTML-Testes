@@ -137,16 +137,22 @@ a:hover {
     background-color: rgb(7, 255, 7);
 }
 
-/* Listas
-ul {
-    background-color: gray;
-    list-style-type: circle;
-    list-style-image:url('./Assets/kylo-ren-starwars-pl.jpg') ;
+/* backgrounds */
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-ul li {
-    padding-left: 40px;
-    font-size: 50px;
-    border: 1px solid black;
-} */ 
+/* .back {
+    background-color: lightgreen;
+    background-image: url(./Assets/kylo-ren-starwars-pl.jpg);
+    width: 1000px;
+    height: 550px;
+    background-size: cover;
 
+    background: #000 url(./Assets/kylo-ren-starwars-pl.jpg) no-repeat top right;
+    width: 800px;
+    height: 750px;
+    background-size: cover;
+} */
