@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    padding-top: 130px;
+}
+
 /* Tela vermelha do topo das Páginas */
 .topo {
     background-color: red;
@@ -15,6 +19,8 @@
     height: 100px;
     width: 100vw;
     padding-top: 30px;
+    position: fixed; 
+    top: 0px;
 }
 
 /* Link junto do topo vermelho */
@@ -168,4 +174,18 @@ p {
     display: inline-block;
     width: 100px;
     height: 100px;
+}
+
+.parado {
+    background-color: #1eff00;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.andando {
+    background-color: #424250;
+    width: 120px;
+    height: 90px;
+    position: static;
 }
