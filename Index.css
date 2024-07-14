@@ -110,7 +110,8 @@ td {
 
 /* Formulário */
 .paipai {
-    border: solid gray;
+    background-color: #fff;
+    border: solid black;
     margin: 3% 30% 0% 30%;
     padding: 20px;
 }
@@ -166,11 +167,11 @@ p {
 
 /* display: inline; */
 .capa li {
-    background-color: #000;
+    background-color: orange;
     color: red;
     font-size: 50px;
     text-align: center;
-    border: solid blue 10px;
+    border: solid #000 10px;
     margin: 20px;
     display: inline-block;
     width: 100px;
