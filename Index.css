@@ -21,6 +21,7 @@ body {
     padding-top: 30px;
     position: fixed; 
     top: 0px;
+    border-bottom: solid #000 5px;
 }
 
 /* Link junto do topo vermelho */
