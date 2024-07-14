@@ -184,6 +184,42 @@ p {
 }
 
 /* Batman filme */
+
+/* cabeçalho */
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.cabeçalhoB {
+    background-color: rgb(100, 100, 104);
+    padding: 10px 5px;
+    border-bottom: #000 5px solid;
+}
+
+.cabeçalhoB nav {
+    float:right ;
+} 
+
+.cabeçalhoB nav li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+.cabeçalhoB a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.cabeçalhoB a:hover {
+    background-color: blue;
+}
+
+
+/* Conteúdo */
 .painel1 {
     background-color: #00C4B4;
     font-size: 20px;
