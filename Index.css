@@ -145,12 +145,12 @@ a:hover {
     background-color: rgb(7, 255, 7);
 }
 
-/* backgrounds */
+/* backgrounds
 p {
     color: coral;
     font-size: 24px;
     font-weight: bold;
-}
+} */
 
 /* .back {
     background-color: lightgreen;
@@ -178,16 +178,22 @@ p {
     height: 100px;
 }
 
-.parado {
-    background-color: #1eff00;
-    position: absolute;
-    width: 200px;
-    height: 200px;
+.imagemB {
+    min-width: 320px;
+    max-width: 900px;
 }
 
-.andando {
-    background-color: #424250;
-    width: 120px;
-    height: 90px;
-    position: static;
+/* Batman filme */
+.painel1 {
+    background-color: #00C4B4;
+    font-size: 20px;
+    padding: 30px;
+    width: 900px;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+.imagemB img {
+    width: 100%;
 }
