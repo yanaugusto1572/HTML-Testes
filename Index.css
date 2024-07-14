@@ -10,8 +10,7 @@
     padding-top: 130px;
 } */
 
-/* Cabeçalho no topo das páginas */
-/* cabeçalho */
+/* CABEÇALHO DO TOPO DAS PÁGINAS */
 .logoT {
     display: inline-block;
     margin-left: 20px;
@@ -45,7 +44,7 @@
 }
 
 
-/* Tela vermelha do topo das Páginas */
+/* Antigo cabeçalho no topo das Páginas */
 /* .topo {
     background-color: red;
     color: #000;
@@ -60,14 +59,14 @@
 } */
 
 /* Link junto do topo vermelho */
-#linkado {
+/* #linkado {
     background-color: red;
     color: #000;
     font-size: 50px;
     text-align: center;
-}
+} */
 
-/* Bloco com links dos teste */
+/* Bloco com links dos testes PÁGINA 1*/
 .blocoTestes {
     font-size: 50px;
     border: solid 10px;
@@ -80,7 +79,7 @@
 }
 
 
-/* Tela verde do topo de formulário */
+/* Tela verde do topo de FORMULÁRIO */
 .pai1 {
     border: solid;
     font-size: 50px;
@@ -94,7 +93,15 @@
     /* font-size: 15vh; */;
 }
 
-/* Teste 1 DEVQUEST */
+/* FORMULÁRIO */
+.paipai {
+    background-color: #fff;
+    border: solid black;
+    margin: 3% 30% 0% 30%;
+    padding: 20px;
+}
+
+/* TESTE 1 DEVQUEST */
 .testeD1 {
     background-color: orangered;
     border: solid;
@@ -112,7 +119,7 @@
     background-color: grey;
 }
 
-/* Páragrafos teste 1 DEVQUEST */
+/* Páragrafos TESTE 1 DEVQUEST */
 
 #P1 {
     background-color: #F5F5F5;
@@ -127,7 +134,7 @@
     padding: 20px;
 }
 
-/* Tabelas teste 1 DEVQUEST */
+/* Tabelas TESTE 1 DEVQUEST */
 
 .tab1 {
     background-color: #BB86FC;
@@ -143,25 +150,18 @@ td {
     background-color: #424250;
 }
 
-/* Formulário */
-.paipai {
-    background-color: #fff;
-    border: solid black;
-    margin: 3% 30% 0% 30%;
-    padding: 20px;
-}
 
-/* Explicação página 2 */
-.exp {
+/* Explicação PÁGINA 2 */
+/* .exp {
     background-color: gray;
     color: #fff;
     font-size: 30px;
     text-align: center;
     padding: 10px 0px 10px 0px;
     border: solid black;
-}
+} */
 
-/* links */
+/* LINKS */
 /* a {
     cursor: cell;
 }
@@ -181,8 +181,9 @@ a:hover {
 } */
 
 
-/* backgrounds
-p {
+
+/* BACKGROUNDS*/
+/*p {
     color: coral;
     font-size: 24px;
     font-weight: bold;
@@ -201,7 +202,7 @@ p {
     background-size: cover;
 } */
 
-/* display: inline; */
+/* display: inline PÁGINA 2 */
 .capa li {
     background-color: orange;
     color: red;
@@ -214,12 +215,8 @@ p {
     height: 100px;
 }
 
-.imagemB {
-    min-width: 320px;
-    max-width: 900px;
-}
 
-/* Batman filme */
+/* BATMAN */
 
 /* cabeçalho */
 .logo {
@@ -267,6 +264,11 @@ p {
     border: solid 10px;
 }
 
+.imagemB {
+    min-width: 320px;
+    max-width: 900px;
+}
+
 .imagemB img {
     width: 100%;
 }
@@ -274,7 +276,8 @@ p {
 /* Explicação */
 .ExpliBat {
     background-color: yellow;
-    border: solid 10px;
+    /* border: solid 10px; */
+    border: solid;
     font-size: 20px;
     padding: 30px;
     margin: 0 auto;
