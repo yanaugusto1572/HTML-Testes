@@ -195,7 +195,7 @@ p {
 .cabeçalhoB {
     background-color: rgb(100, 100, 104);
     padding: 10px 5px;
-    border-bottom: #000 5px solid;
+    border-bottom: 5px solid;
 }
 
 .cabeçalhoB nav {
@@ -221,15 +221,24 @@ p {
 
 /* Conteúdo */
 .painel1 {
-    background-color: #00C4B4;
+    background-color: yellow;
     font-size: 20px;
     padding: 30px;
     width: 900px;
     margin: 0 auto;
     min-width: 320px;
     max-width: 900px;
+    border: solid 10px;
 }
 
 .imagemB img {
     width: 100%;
+}
+
+.ExpliBat {
+    background-color: yellow;
+    border: solid 10px;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0 auto;
 }
