@@ -299,15 +299,3 @@ a:hover {
     }
 }
 
-.Central {
-    background-color: orange;
-    width: 800px;
-    height: 800px;
-    /* position: absolute;
-    top: 50%; */
-    /* transform: translateY(100px); */
-    /* line-height: 800px; */
-    margin: auto;
-    text-align: center;
-
-}
