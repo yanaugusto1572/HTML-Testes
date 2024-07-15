@@ -209,10 +209,10 @@ a:hover {
     font-size: 50px;
     text-align: center;
     border: solid #000 10px;
-    margin: 20px;
     display: inline-block;
     width: 100px;
     height: 100px;
+    line-height: 100px;
 }
 
 
@@ -281,4 +281,33 @@ a:hover {
     font-size: 20px;
     padding: 30px;
     margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    .cabeçalhoB {
+        background-color: #1eff00;
+        color: red; 
+        text-align: center;
+    }
+
+    .cabeçalhoB nav {
+        float: none;
+    }
+
+    .cabeçalhoB nav li {
+        display: block;
+    }
+}
+
+.Central {
+    background-color: orange;
+    width: 800px;
+    height: 800px;
+    /* position: absolute;
+    top: 50%; */
+    /* transform: translateY(100px); */
+    /* line-height: 800px; */
+    margin: auto;
+    text-align: center;
+
 }
